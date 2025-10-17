@@ -1,0 +1,75 @@
+/* ====== General Styling ====== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ====== Header ====== */
+header {
+  background-color: #0055a5;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0.3rem 0;
+}
+
+header a {
+  color: #ffe066;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* ====== Main Sections ====== */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #0055a5;
+  border-bottom: 2px solid #0055a5;
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+/* ====== Footer ====== */
+footer {
+  text-align: center;
+  background-color: #0055a5;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.thanks {
+  text-align: center;
+  font-weight: bold;
+  color: #0055a5;
+}
